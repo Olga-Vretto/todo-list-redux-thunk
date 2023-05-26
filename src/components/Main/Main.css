@@ -1,0 +1,44 @@
+.main {
+  min-height: calc(100vh - 16vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.682);
+  padding: 20px 20px 50px;
+}
+
+.main-subtitle,
+.task-subtitle {
+  font-size: 28px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+.input {
+  width: 75%;
+  height: 30px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-align: center;
+  margin: 5px 0 0;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: grey 1px 1px 10px;
+  z-index: 100;
+}
+
+.add-btn {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-weight: 600;
+  padding: 6px 18px;
+  margin-left: 35px;
+  background-color: rgba(137, 221, 183, 0.464);
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: grey 1px 1px 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.add-btn:hover {
+  transform: scale(1.05);
+}

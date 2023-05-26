@@ -1,0 +1,27 @@
+.done {
+  color: rgba(79, 141, 113, 0.907);
+  text-decoration: line-through;
+}
+
+.tasks {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.list {
+  list-style: square;
+}
+
+.btn-delete {
+  border: none;
+  background-color: transparent;
+  color: rgb(204, 54, 54);
+  font-size: 18px;
+  cursor: pointer;
+  
+}
